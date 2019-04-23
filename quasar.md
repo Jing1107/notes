@@ -40,3 +40,8 @@
 ├── .gitignore               # GIT忽略路径
 ├── package.json             # npm脚本和依赖项
 └── README.md                # 您的网站/应用程序的自述文件
+
+
+## common error
+### Newline required at end of file but not found/ 需要在结尾再下行一行
+### Trailing spaces not allowed /不允许尾随空间，把eslint检测关闭
