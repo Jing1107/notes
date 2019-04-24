@@ -45,3 +45,4 @@
 ## common error
 ### Newline required at end of file but not found/ 需要在结尾再下行一行
 ### Trailing spaces not allowed /不允许尾随空间，把eslint检测关闭
+## Expected indentation of 2 spaces but found 4

@@ -1,0 +1,25 @@
+<p>
+  本质上来说，VD只是一个简单的JS对象，并且最少包含tag、props和children三个属性。不同的框架对这三个属性的命名会有点差别，但表达的意思是一致的。它们分别是标签名（tag）、属性（props）和子元素对象（children）。下面是一个典型的VD对象例子
+</p>
+
+<p>
+  {
+    tag: "div",
+    props: {},
+    children: [
+        "Hello World",
+      {
+        tag: "ul",
+        props: {},
+        children: [{
+          tag: "li",
+          props: {
+          id: 1,
+          class: "li-1"
+          },
+          children: ["第", 1]
+        }]
+      }
+    ]
+  }
+</p>
