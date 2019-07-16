@@ -8,3 +8,6 @@
     width: 70%;
     margin: auto;
 ### }
+
+### For centering a block of text 
+### just need to give that block a width, then margin-left and right all be auto.
