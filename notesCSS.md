@@ -13,9 +13,9 @@
 ### just need to give that block a width, then margin-left and right all be auto.
 
 ### to make a button vertically and horizontally center 
-<div id="wrapper">
+< id="wrapper">
   <button type="button">hello</button>
-</div>
+</>
 
 #wrapper {
   width: 100%;
