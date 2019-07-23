@@ -31,4 +31,4 @@ button {
   width: 100px;
 }
 
-##About flex box, when use flex box, text-align; float; clear and vertical-align will not working.
+##A bout flex box, when use flex box, text-align; float; clear and vertical-align will not working.
