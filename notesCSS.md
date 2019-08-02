@@ -33,5 +33,5 @@ button {
 
 ## About flexbox, when use flex box, text-align; float; clear and vertical-align will not working.
 
-## white-space: nowrap, 英语词组意思为空余时间，在计算机术语中的意思是泛空格符。white-space 属性设置如何处理元素内的空白。
+## white-space: nowrap, 在计算机术语中的意思是泛空格符。white-space 属性设置如何处理元素内的空白。
 ## nowrap :强制在同一行内显示所有文本，直到文本结束或者遭遇 br 对象。
