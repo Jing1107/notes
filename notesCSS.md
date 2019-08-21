@@ -35,3 +35,5 @@ button {
 
 ## white-space: nowrap, 在计算机术语中的意思是泛空格符。white-space 属性设置如何处理元素内的空白。
 ## nowrap :强制在同一行内显示所有文本，直到文本结束或者遭遇 br 对象。
+
+## when use <a href="tel:1234567"></a> 1300 number does not need to add "+"
