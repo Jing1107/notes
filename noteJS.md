@@ -6,7 +6,7 @@ console.log(listOfNumbers[0]);
 console.log(listOfNumbers[2 - 1]);
 // → 3
 
-why the last oneanswer is 3.
+
 
 let fruits = ['Apple', 'Banana']
 fruits.forEach(function(item, index, array) {
