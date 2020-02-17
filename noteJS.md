@@ -68,3 +68,17 @@ Expected Output :
 -2
 [9, 0, -2]
 [7, 9, 0, -2]
+
+var last = function(arr, n) {
+    if(n==null) {
+        return arr.slice(-1)[0]
+    };
+    return arr.slice(-n)
+}
+
+5. Write a simple JavaScript program to join all elements of the following array into a string.
+Sample array : myColor = ["Red", "Green", "White", "Black"];
+Expected Output :
+"Red,Green,White,Black"
+"Red,Green,White,Black"
+"Red+Green+White+Black"
