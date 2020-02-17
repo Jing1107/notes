@@ -82,3 +82,7 @@ Expected Output :
 "Red,Green,White,Black"
 "Red,Green,White,Black"
 "Red+Green+White+Black"
+
+myColor.toString()
+myColor.join()
+myColor.join('+')
