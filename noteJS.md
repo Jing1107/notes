@@ -6,7 +6,14 @@ console.log(listOfNumbers[0]);
 console.log(listOfNumbers[2 - 1]);
 // → 3
 
+const property = 'name';
+const hero = {
+  name: 'Batman'
+};
 
+// Square brackets property accessor:
+hero['name'];   // => 'Batman'
+hero[property]; // => 'Batman'
 
 let fruits = ['Apple', 'Banana']
 fruits.forEach(function(item, index, array) {
@@ -86,3 +93,12 @@ Expected Output :
 myColor.toString()
 myColor.join()
 myColor.join('+')
+
+6. Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers. For example if you accept 025468 the output should be 0-254-6-8.
+
+7. Write a JavaScript program to sort the items of an array. Go to the editor
+Sample array : var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+Sample Output : -4,-3,1,2,3,5,6,7,8
+
+arr1.sort()
+
