@@ -118,5 +118,7 @@ function findArr(array, times) {
     }
     return count;
 }
-findArr(arr1, 'a')
+findArr(arr1, 'a')+ ' ' +'times'
 ```
+9. Write a JavaScript program which accept a string as input and swap the case of each character. For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'.
+
