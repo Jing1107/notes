@@ -103,3 +103,20 @@ Sample Output : -4,-3,1,2,3,5,6,7,8
 ```
 arr1.sort()
 ```
+8. Write a JavaScript program to find the most frequent item of an array.
+Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+Sample Output : a ( 5 times )
+```
+var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+
+function findArr(array, times) {
+    var count = 0;
+    for (var i = 0; i < array.length; i++) {
+        if(array[i]===times) {
+            count++;
+        }
+    }
+    return count;
+}
+findArr(arr1, 'a')
+```
