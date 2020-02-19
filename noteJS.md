@@ -1,3 +1,4 @@
+```
 let listOfNumbers = [2, 3, 5, 7, 11];
 console.log(listOfNumbers[2]);
 // → 5
@@ -19,7 +20,7 @@ let fruits = ['Apple', 'Banana']
 fruits.forEach(function(item, index, array) {
   console.log(item, index)
 })
-
+```
 1. Write a JavaScript function to check whether an `input` is an array or not.
 Test Data :
 console.log(is_array('w3resource'));
