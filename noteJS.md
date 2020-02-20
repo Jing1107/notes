@@ -159,3 +159,4 @@ a.forEach(function (item, index) {
     console.log('row ' + index + ':' + ' ' + item)
 })
 ```
+11. Write a JavaScript program to find the sum of squares of a numeric vector. 
