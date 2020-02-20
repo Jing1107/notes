@@ -160,3 +160,11 @@ a.forEach(function (item, index) {
 })
 ```
 11. Write a JavaScript program to find the sum of squares of a numeric vector. 
+```
+var a = [1,2,3,4];
+for(i = a.length; i >=0; i--) {
+    let sum = 0
+    sum += Math.pow(a[i], 2)
+    console.log(sum)
+}
+```
