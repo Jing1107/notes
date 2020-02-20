@@ -131,12 +131,24 @@ str='The Quick Brown Fox';
 convert='';
 for(var i = 0; i < str.length; i++) {
   c = str[i];
-  if(c == c.toUpperCase()) {
+  if(c === c.toUpperCase()) {
     convert += c.toLowerCase();
-  } else if(c == c.toLowerCase()) {
+  } else if(c === c.toLowerCase()) {
     convert += c.toUpperCase();
   } else {
     convert += c;
   }
 }
 ```
+10. Write a JavaScript program which prints the elements of the following array.
+Note : Use nested for loops.
+Sample array : var a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
+Sample Output :
+"row 0"
+" 1"
+" 2"
+" 1"
+" 24"
+"row 1"
+------
+------
