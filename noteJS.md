@@ -155,10 +155,7 @@ Sample Output :
 ------
 ```
 ```
-for (var i in a) {
-    var b = a[i] 
-    for (var j in b) {
-        console.log('row'+ a +   b[j])
-    }
-}
+a.forEach(function (item, index) {
+    console.log('row ' + index + ':' + ' ' + item)
+})
 ```
