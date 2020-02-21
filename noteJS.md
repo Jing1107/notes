@@ -196,3 +196,9 @@ function a(array) {
 a([1, 2, 3, 4, 5, 6])
 ```
 13. Write a JavaScript program to add items in an blank array and display the items.
+14. Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
+```
+function removeDuplicates(array) {
+  return array.filter((a, b) => array.indexOf(a) === b)
+}
+```
