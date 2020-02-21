@@ -195,3 +195,4 @@ function a(array) {
 }
 a([1, 2, 3, 4, 5, 6])
 ```
+13. Write a JavaScript program to add items in an blank array and display the items.
