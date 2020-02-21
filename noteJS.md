@@ -170,4 +170,5 @@ var sqrtSum = function(array) {
 }
 sqrtSum([0,1,2,3,4])
 ```
-#### why can't use loop to get square first then get sum
+###### why can't use loop to get square first then get sum
+12. Write a JavaScript program to compute the sum and product of an array of integers.
