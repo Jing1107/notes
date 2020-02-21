@@ -171,4 +171,27 @@ var sqrtSum = function(array) {
 sqrtSum([0,1,2,3,4])
 ```
 ###### why can't use loop to get square first then get sum
+```
+var originalArr = [1, 2, 3, 4, 5];
+function multiplyByThree(arr) {
+    var newArr = [];
+    
+    for(var i = 0; i < arr.length; i++) {
+        newArr[i] += arr[i] * 3;
+    }
+    return newArr;
+}
+```
 12. Write a JavaScript program to compute the sum and product of an array of integers.
+```
+function a(array) {
+    var sum = 0,
+        mulity = 1;
+    for (var i = 0; i < array.length; i++) {
+        sum += array[i];
+        mulity *= array[i]
+    }
+    console.log('Sum : '+sum + ' Product :  ' +mulity);
+}
+a([1, 2, 3, 4, 5, 6])
+```
