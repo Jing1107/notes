@@ -170,3 +170,4 @@ var sqrtSum = function(array) {
 }
 sqrtSum([0,1,2,3,4])
 ```
+#### why can't use loop to get square first then get sum
