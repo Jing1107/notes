@@ -211,4 +211,5 @@ Write a JavaScript program to display the colors in the following way :
 "3rd choice is Red."
 - - - - - - - - - - - - -
 Note : Use ordinal numbers to tell their position.
+
 16. Find the leap years in a given range of years.
