@@ -211,4 +211,13 @@ Write a JavaScript program to display the colors in the following way :
 ##### Note : Use ordinal numbers to tell their position.
 
 16. Find the leap years in a given range of years.
+var leapYear = function(arr) {
+    for( var i = 0; i<arr.length; i++) {
+        if(arr[i]%4 === 0) {
+            console.log(arr[i], "It's leap year")
+        } else {
+            console.log(arr[i], "It's not leap year")
+        }
+    }
+}
 ```
