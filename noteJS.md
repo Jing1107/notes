@@ -249,5 +249,34 @@ var binary_Search = function(arr, k) {
             console.log(i)
         }
     }
+}// wrong answer
+
+function binary_Search(items, value){
+    let firstIndex  = 0;
+    let lastIndex   = items.length - 1;
+    let middleIndex = Math.floor((lastIndex + firstIndex)/2);
+
+    while(items[middleIndex] != value && firstIndex < lastIndex)
+    {
+       if (value < items[middleIndex])
+        {
+            lastIndex = middleIndex - 1;
+        } 
+      else if (value > items[middleIndex])
+        {
+            firstIndex = middleIndex + 1;
+        }
+        middleIndex = Math.floor((lastIndex + firstIndex)/2);
+        console.log(middleIndex)
+    }
+
+    return (items[middleIndex] != value) ? -1 : middleIndex;
 }
+
+19. There are two arrays with individual values, write a JavaScript program to compute the sum of each individual index value from the given arrays. Go to the editor
+Sample array :
+array1 = [1,0,2,3,4];
+array2 = [3,5,6,7,8,13];
+Expected Output :
+[4, 5, 8, 10, 12, 13]
 ```
