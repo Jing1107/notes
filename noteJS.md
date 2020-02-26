@@ -152,8 +152,6 @@ Sample Output :
 "row 1"
 ------
 ------
-```
-```
 a.forEach(function (item, index) {
     console.log('row ' + index + ':' + ' ' + item)
 })
