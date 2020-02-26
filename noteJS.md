@@ -157,9 +157,9 @@ Sample Output :
 a.forEach(function (item, index) {
     console.log('row ' + index + ':' + ' ' + item)
 })
-```
+
 11. Write a JavaScript program to find the sum of squares of a numeric vector. 
-```
+
 var sqrtSum = function(array) {
     let sum = 0,
         i = array.length
@@ -273,7 +273,7 @@ function binary_Search(items, value){
     return (items[middleIndex] != value) ? -1 : middleIndex;
 }
 
-19. There are two arrays with individual values, write a JavaScript program to compute the sum of each individual index value from the given arrays. Go to the editor
+19. There are two arrays with individual values, write a JavaScript program to compute the sum of each individual index value from the given arrays.
 Sample array :
 array1 = [1,0,2,3,4];
 array2 = [3,5,6,7,8,13];
