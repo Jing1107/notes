@@ -260,6 +260,14 @@ Answer:
     }
   </script>
 </html>
+
+OR
+
+function addItems(array) {
+    for(var i=0; i<array.length; i++){
+        console.log('Element' + i + '=' + array[i])   
+    }
+}
 ```
 14. Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
 ```
@@ -272,11 +280,16 @@ function removeDuplicates(array) {
 ```
 color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
 o = ["th","st","nd","rd"]
+```
 Write a JavaScript program to display the colors in the following way :
+```
 "1st choice is Blue ."
 "2nd choice is Green."
 "3rd choice is Red."
+```
 ##### Note : Use ordinal numbers to tell their position.
+```
+
 ```
 16. Find the leap years in a given range of years.
 ```
