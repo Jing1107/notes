@@ -131,6 +131,8 @@ var evenWithDash = function(num) {
 ```
 Sample array : var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 Sample Output : -4,-3,1,2,3,5,6,7,8
+```
+```
 Answer:
 arr1.sort()
 ```
@@ -232,6 +234,33 @@ function a(array) {
 a([1, 2, 3, 4, 5, 6])
 ```
 13. Write a JavaScript program to add items in an blank array and display the items.
+```
+Answer:
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>JS Bin</title>
+  </head>
+  <body>
+    <input type="text" id="text1"></input>
+    <input type="button" value="Display" onclick="display_array();"></input>
+    <div id="Result"></div> 
+  </body>
+  <script>
+    var x = 0;
+    array = [];
+    function display_array(){
+       array[x] = document.getElementById("text1").value;
+       x++;
+       var e = "";   
+       for (var y=0; y<array.length; y++) {
+         e += "Element " + y + " = " + array[y] + "<br/>";
+       }
+       document.getElementById("Result").innerHTML= e;
+    }
+  </script>
+</html>
+```
 14. Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
 ```
 Answer:
